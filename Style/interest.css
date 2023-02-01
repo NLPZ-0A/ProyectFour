@@ -18,7 +18,7 @@
 .interest_foto{
     width: 6em;
     height: 6em;
-    background-image: url(/img/niños__present.jpg);
+    background-image: url(../img/niños__present.jpg);
     background-size: contain;
     border-radius: 50%;
 }

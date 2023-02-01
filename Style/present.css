@@ -1,0 +1,47 @@
+.present{
+    background-color: gray;
+    height: 13em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 1.5em;
+}
+
+.present__div{
+    width: 48%;
+    height: 95%;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.present__div_text{
+    width: 90%
+}
+
+.present__div_button{
+    width: 10em;
+    height: 2.2em;
+    border-radius: 1em;
+    border: 0px;
+}
+
+
+
+
+.present__img{
+    width: 48%;
+    height: 95%;
+    border: 1px solid white;
+    background-image:url(/img/niños__present.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}

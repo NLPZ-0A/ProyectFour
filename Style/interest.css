@@ -1,12 +1,12 @@
 .interest{
     width: 100%;
-    height: 13em;
+    height: 90vh;
     border: 2px solid white;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: aliceblue;
-    margin-bottom: 1.5em;
+    margin-bottom: 5em;
 }
 
 .interest__title{

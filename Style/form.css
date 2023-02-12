@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: system-ui;
+  display: flex;
+}
+
+.main {
+  width: 100%;
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid black;
+
+  display: flex;
+  align-items: center;
+}
+
+.section {
+  max-width: 50%;
+}
+
+.section__title {
+  margin-bottom: 1em;
+  text-align: left;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+.form {
+  width: 100%;
+  margin: 1em 0;
+  border: 1px solid black;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.form__list {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.form__item {
+  margin-bottom: 2em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form__item--data {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+.form__label {
+  margin-bottom: 0.2em;
+}
+
+.form__input {
+  padding: 1em;
+  outline: none;
+  font-family: inherit;
+}
+
+.form__input:placeholder-shown {
+  font-family: inherit;
+}
+
+.input-name {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-lastname {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-message {
+  min-height: 15em;
+  resize: none;
+}
+
+.form__button {
+  padding: 1em;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}

@@ -90,8 +90,9 @@ body {
   resize: none;
 }
 
-.data__input::placeholder {
+.data__input:placeholder-shown {
   user-select: none;
+  font-family: inherit;
   font-size: 1em;
   font-weight: 300;
 }
@@ -110,9 +111,9 @@ body {
 
 .data__icon {
   position: absolute;
-  right: 1em;
+  right: 0;
   width: 2.5em;
-  height: 1.75em;
+  margin: 1em;
   user-select: none;
 }
 
@@ -125,6 +126,7 @@ body {
   color: rgba(255, 255, 255, 1);
 
   text-align: center;
+  font-family: inherit;
   font-weight: 800;
   font-size: 1.5em;
 
@@ -137,6 +139,7 @@ body {
 }
 
 .main__img {
+  width: 45%;
   object-fit: contain;
   align-self: flex-end;
 }

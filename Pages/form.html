@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../Style/normalize.css" />
+
     <link rel="stylesheet" href="../Style/form.css" />
     <link rel="stylesheet" href="../Style/popup.css" />
     <link rel="stylesheet" href="../Style/variables.css" />
@@ -129,14 +129,26 @@
     </main>
 
     <!-- POP UP -->
-    <div id="popup">
-      <div>
-        <h2>¡Gracias por su consulta!</h2>
-        <p>
+    <div id="popup" class="container">
+      <div class="pop-up">
+        <img
+          class="pop-up__img"
+          src="../img/the_character_thumb_up.png"
+          alt="Personaje pulgar arriba"
+          draggable="false"
+        />
+        <h2 class="pop-up__title">¡Gracias por su consulta!</h2>
+        <p class="pop-up__paragraph">
           A la brevedad nuestro equipo se comunicará para brindarte información
           y guiarte en el proceso de admisión
         </p>
-        <button type="button">Regresar al inicio</button>
+        <button
+          id="popup-button"
+          class="form__button form__button--popup"
+          type="button"
+        >
+          Regresar al inicio
+        </button>
       </div>
     </div>
     <script src="../form.js"></script>

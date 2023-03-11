@@ -40,6 +40,7 @@
                   name="nombre"
                   id="name"
                   placeholder="Escriba su nombre"
+                  required
                 />
               </li>
               <li class="data">
@@ -52,6 +53,7 @@
                   name="apellido"
                   id="surname"
                   placeholder="Escriba su apellido"
+                  required
                 />
               </li>
             </ul>
@@ -71,6 +73,7 @@
                     name="email"
                     id="email"
                     placeholder="suemail@gmail.com"
+                    required
                   />
                   <img
                     class="data__icon"
@@ -108,14 +111,15 @@
                   class="data__input data__input--height"
                   name="mensaje"
                   id="message"
-                  cols="30"
-                  rows="19"
+                  cols="22"
+                  rows="18"
                   placeholder="Escriba su mensaje"
+                  required
                 ></textarea>
               </li>
             </ul>
           </div>
-          <button id="form-button" class="form__button" type="button">
+          <button id="form-button" class="form__button" type="button" disabled>
             Enviar
           </button>
         </form>

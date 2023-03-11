@@ -19,22 +19,29 @@ body {
 
 .main {
   width: 100%;
-  padding: 2em;
+  padding: 2em 0;
 
   display: flex;
   justify-content: center;
 }
 
 .section {
-  width: 55%;
+  max-width: 766px;
 }
 
 .section__title {
+  margin-bottom: 2em;
+  padding: 0 0.2em;
+
+  line-height: 44px;
+  text-align: center;
   font-size: 2em;
 }
 
 .form {
   width: 100%;
+  margin-top: 1.5em;
+  padding: 0 1.51em;
   display: flex;
   flex-direction: column;
 }
@@ -67,7 +74,7 @@ body {
 
   display: flex;
   flex-direction: column;
-  gap: 0.5em;
+  gap: 10px;
 }
 
 .data__label {
@@ -77,18 +84,20 @@ body {
 
 .data__input {
   width: 100%;
-  padding: 1em;
-  border: 1px solid rgb(217, 217, 217);
+  height: 3.875em;
+  padding: 1.25em;
+  border: 1px solid var(--primary-color-grey);
   border-radius: 10px;
   outline: none;
 }
 
 .data__input--padding {
-  padding: 1em 4em 1em 1em;
+  padding-right: 4em;
 }
 
 .data__input--height {
   resize: none;
+  height: 23.125em;
 }
 
 .data__input::placeholder {
@@ -121,6 +130,7 @@ body {
 
 .form__button {
   width: 100%;
+  margin: 0.3em 0;
   padding: 0.55em;
   border: none;
   border-radius: 10px;
@@ -136,6 +146,8 @@ body {
   cursor: pointer;
 }
 
-.form__button:active {
-  opacity: 0.8;
+.form__button:disabled {
+  background-color: #c7c9cf;
+  color: var(--primary-color-grey);
+  cursor: not-allowed;
 }

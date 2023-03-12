@@ -8,7 +8,7 @@ body {
   width: 100vw;
   min-height: 100vh;
   background-color: var(--primary-color-pink);
-  color: var();
+  color: var(--primary-color-black);
 
   font-family: var(--primary-font);
   font-weight: 500;

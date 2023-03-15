@@ -36,6 +36,7 @@
 .present__div_text_secundary{
     font-size: var(--subtitle-font);
     font-weight: var(--paragraph-weight);
+    color: var(--c-paragraph);
 }
 
 .present__div_button{

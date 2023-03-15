@@ -1,0 +1,10 @@
+:root{
+
+    --padding-margin: 0 6.25em;
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}

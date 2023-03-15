@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio - Jardín Burbujas</title>
+    <title>HOME - Jardín Burbujas</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,700;0,800;1,500&display=swap" rel="stylesheet">
 
     <!-- style -->
     <link rel="stylesheet" href="./Style/normalize.css">
@@ -15,20 +20,27 @@
     <link rel="stylesheet" href="./Style/card.css">
 
 
+
 </head>
+
 <body class="body">
 
 <header class="header">
     <div class="header__logo"></div>
-    <h1 class="header__title1 seccion">Nosotros</h1>
-    <h1 class="header__title2 seccion">Educación</h1>
-    <h1 class="header__title3 seccion">Admisiones</h1>
-    <h1 class="header__title4 seccion">Comunidad</h1>
-    <imput class="header__search" type="search" id="site-search" name="q" placeholder="Consulta"></imput>
+    <nav class="header__nav">
+        <ul class="header__nav_list">
+            <li class="header__title1 seccion">Nosotros</li>
+            <li class="header__title2 seccion">Educación</li>
+            <li class="header__title3 seccion">Admisiones</li>
+            <li class="header__title4 seccion">Comunidad</li>
+        </ul>
+    </nav>
+    <!-- <imput class="header__search" type="search" id="site-search" name="search" placeholder="Consulta"></imput> -->
 </header>
 
 <div class="present">
-    <div class="present__div">        
+    <div class="present__div"> 
+
         <p class="present__div_text">
             Creemos en la importancia de alentar a las infancias a descubrirse a ellos y al mundo que los rodea mediante el juego, la empatía y la curiosidad.
         </p>

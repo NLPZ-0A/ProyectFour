@@ -27,10 +27,12 @@
 
 
     --bgc-button: #F6A50C;
+    --c-paragraph: #6C727F;
 }
 
 *{
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
     box-sizing: border-box;
+    color: #1E1E1E;
 }

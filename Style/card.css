@@ -1,15 +1,94 @@
-.card{
+.background__two{
     width: 100%;
-    height: 100vh;
-    border: 2px solid white;
-    display: flex;
-}
-
-.card__img{
-    width: 30%;
-    height: 95%;
-    background-image: url(../img/niños__present.jpg);
+    height: 200vh;
+    background-image: url(../img/background-two.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size:contain;
+    position: absolute;
+    top: 1984px;
+    scale: 1.5;
+    z-index: -1;
+}
+
+.cards{
+    
+    width: 100%;
+    height: 93vh;
+    padding: var(--padding-margin);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards__title{
+    text-align: center;
+    width: 100%;
+    margin-top: 6rem;
+    font-size: var(--title-font);
+    font-weight: var(--title-weight);
+}
+
+.cards__card{
+    width: 100%;
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card{
+    width: 25em;
+    height: 19em;
+    /* border: 1px solid black; */
+    background-color: #F9F9F9;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column; 
+}
+
+.phisiology__img{
+    width: 25em;
+    height: 14em;
+    background-image: url(../img/phisiology.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.phisiology__title{
+    text-align: center;
+    font-size: var(--subtitle-font);
+    font-weight: var(--subtitle-weight);
+}
+
+.team__img{
+    width: 25em;
+    height: 14em;
+    background-image: url(../img/team.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.team__title{
+    text-align: center;
+    font-size: var(--subtitle-font);
+    font-weight: var(--subtitle-weight);
+}
+
+.place__img{
+    width: 25em;
+    height: 14em;
+    background-image: url(../img/place.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.place__title{
+    text-align: center;
+    font-size: var(--subtitle-font);
+    font-weight: var(--subtitle-weight);
 }

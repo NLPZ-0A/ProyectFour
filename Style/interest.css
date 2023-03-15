@@ -1,25 +1,110 @@
 .interest{
     width: 100%;
-    height: 90vh;
-    border: 2px solid white;
+    height: 97vh;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    background-color: aliceblue;
-    margin-bottom: 5em;
+    flex-direction: column;
 }
 
 .interest__title{
     text-align: center;
     width: 100%;
-    
+    margin-top: 6rem;
 }
 
-.interest_foto{
-    width: 6em;
-    height: 6em;
-    background-image: url(../img/niños__present.jpg);
-    background-size: contain;
-    border-radius: 50%;
+.interest__cards{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+    padding: var(--padding-margin);
 }
 
+.cards__education{
+    width: 20em;
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.education__img{
+    width: 13em;
+    height: 13em;
+    background-image: url(../img/education.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.education__title{
+    font-size: var(--title-font);
+    font-weight: var(--title-weight);
+    text-align: center;
+}
+
+.education__paragraph{
+    font-size: var(--paragraph-font);
+    font-weight: var(--paragraph-weight);
+    text-align: center;
+    color: var(--c-paragraph);
+}
+
+.cards__learn{
+    width: 20em;
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.learn__img{
+    width: 13em;
+    height: 13em;
+    background-image: url(../img/learn.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.learn__title{
+    font-size: var(--title-font);
+    font-weight: var(--title-weight);
+    text-align: center;
+}
+
+.learn__paragraph{
+    font-size: var(--paragraph-font);
+    font-weight: var(--paragraph-weight);
+    text-align: center;
+    color: var(--c-paragraph);
+}
+
+.cards__various{
+    width: 20em;
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.various__img{
+    width: 13em;
+    height: 13em;
+    background-image: url(../img/various.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.various__title{
+    font-size: var(--title-font);
+    font-weight: var(--title-weight);
+    text-align: center;
+}
+
+.various__paragraph{
+    font-size: var(--paragraph-font);
+    font-weight: var(--paragraph-weight);
+    text-align: center;
+    color: var(--c-paragraph);
+}

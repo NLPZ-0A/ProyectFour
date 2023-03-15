@@ -9,6 +9,8 @@
     text-align: center;
     width: 100%;
     margin-top: 6rem;
+    font-size: var(--title-font);
+    font-weight: var(--title-weight);
 }
 
 .interest__cards{

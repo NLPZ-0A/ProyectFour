@@ -1,0 +1,38 @@
+:root{
+
+    --padding-margin: 0 6.25em;
+
+    --title-font: 32px;
+    --title-weight: 800;
+
+    --subtitle-font: 24px;
+    --subtitle-weight: 700;
+
+    --text-button: 24px;
+    --text-button-weight: 800;
+
+    --text-card:24px;
+    --text-card-weight: 500;
+    
+    --data-contact-footer: 24px;
+    --data-contact-footer-weight: 500;
+
+    --paragraph-font: 20px;
+    --paragraph-weight: 500;
+
+    --paragraph-weight-parents: 500;
+
+    --labels: 16px;
+    --label-weight: 300;
+
+
+    --bgc-button: #F6A50C;
+    --c-paragraph: #6C727F;
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: #1E1E1E;
+}

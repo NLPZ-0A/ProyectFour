@@ -1,32 +1,42 @@
 .present{
-    background-color: gray;
-    height: calc(100vh - 8em);
+    height: calc(100vh - 11.5rem);
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 1em;
-    margin-bottom: 5em;
+}
+
+.present__background{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(../img/background-One.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    top: 7rem;
 }
 
 .present__div{
-    width: 48%;
-    height: 95%;
-    /* border: 1px solid white; */
+    width: 40%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-
-
+    justify-content: space-between;
 }
 
 .present__div_text{
-    width: 90%;
-    font-size: 2.5em;
+    width: 100%;
+    font-weight: var(--title-weight) ;
+    font-size: var(--title-font);
 }
 
 .present__div_text_secundary{
-    font-size: 1.5em;
+    font-size: var(--subtitle-font);
+    font-weight: var(--paragraph-weight);
+    color: var(--c-paragraph);
 }
 
 .present__div_button{
@@ -34,19 +44,18 @@
     height: 2.2em;
     border-radius: 1em;
     border: 0px;
+    font-size: var(--text-button);
+    font-weight: var(--text-button-weight);
+    color: white;
+    background-color: var(--bgc-button);
 }
 
 
-
-
 .present__img{
-    width: 35%;
-    height: 95%;
-    /* border: 1px solid white; */
-    background-image:url(../img/niños__present.jpg);
-    background-size: cover;
+    width: 24rem;
+    height: 24rem;
+    background-image:url(../img/present__img.png);
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-
-
 }

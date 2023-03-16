@@ -1,0 +1,26 @@
+Títulos
+Nunito Extra Bold 32px
+
+Subtítulos
+Nunito Bold 24px
+
+Texto dentro de botones 
+Nunito ExtraBold 24px
+
+Texto dentro de las cards / tarjetas 
+Nunito Medium 24px
+
+Datos de contacto de Jardín en el footer
+Nunito Medium 24px
+
+Párrafos
+Nunito Medium 20px
+
+Párrafos de testimonios padres
+Nunito Medium Italic 20px
+
+Títulos arriba de los campos de completar / imput fields
+Nunito Regular 20px
+
+Etiquetas/ labels dentro de los campos
+Nunito Light 16px

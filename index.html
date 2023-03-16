@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio - Jardín Burbujas</title>
+    <title>HOME - Jardín Burbujas</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,700;0,800;1,500&display=swap" rel="stylesheet">
 
     <!-- style -->
     <link rel="stylesheet" href="./Style/normalize.css">
@@ -13,48 +18,147 @@
     <link rel="stylesheet" href="./Style/present.css">
     <link rel="stylesheet" href="./Style/interest.css">
     <link rel="stylesheet" href="./Style/card.css">
+    <link rel="stylesheet" href="./Style/offer.css">
+
+
 
 
 </head>
+
 <body class="body">
 
 <header class="header">
     <div class="header__logo"></div>
-    <h1 class="header__title1 seccion">Nosotros</h1>
-    <h1 class="header__title2 seccion">Educación</h1>
-    <h1 class="header__title3 seccion">Admisiones</h1>
-    <h1 class="header__title4 seccion">Comunidad</h1>
-    <imput class="header__search" type="search" id="site-search" name="q" placeholder="Consulta"></imput>
+    <nav class="header__nav">
+        <ul class="header__nav_list">
+            <li class="header__title1 seccion">Nosotros</li>
+            <li class="header__title2 seccion">Educación</li>
+            <li class="header__title3 seccion">Admisiones</li>
+            <li class="header__title4 seccion">Comunidad</li>
+        </ul>
+    </nav>
+    <!-- <imput class="header__search" type="search" id="site-search" name="search" placeholder="Consulta"></imput> -->
 </header>
 
 <div class="present">
-    <div class="present__div">        
-        <p class="present__div_text">
-            Creemos en la importancia de alentar a las infancias a descubrirse a ellos y al mundo que los rodea mediante el juego, la empatía y la curiosidad.
-        </p>
 
-        <p class="present__div_text_secundary">
-            Animate a dar el siguiente paso hacia una educación excepcional para tus hijos
-        </p>
+    <div class="present__background"></div>
 
-        <button class="present__div_button">Llena el formulario</button>
-    </div>
+        <div class="present__div"> 
+    
+            <p class="present__div_text">
+                Creemos en la importancia de alentar a las infancias a descubrirse a ellos y al mundo que los rodea mediante el juego, la empatía y la curiosidad.
+            </p>
+    
+            <p class="present__div_text_secundary">
+                Animate a dar el siguiente paso hacia una educación excepcional para tus hijos
+            </p>
+    
+            <input type="button" class="present__div_button" value="Contactanos">
+        </div>
+    
+        <div class="present__img"></div>
 
-    <div class="present__img"></div>
 </div>
 
 <div class="interest">
-    <h1 class="interest__title">¿Por qué elegirnos?</h1>
-    <div class="interest_foto"></div>
-    <div class="interest_foto"></div>
-    <div class="interest_foto"></div>
-    <div class="interest_foto"></div>
+    
+    <h2 class="interest__title">¿Por qué elegirnos?</h2>
+
+    <div class="interest__cards">
+
+        <div class="cards__education">
+            <div class="education__img"></div>
+            <div class="education__text">
+                <h1 class="education__title">Educación holística</h1>
+                <p class="education__paragraph">Consideramos a las infancias en todas sus dimensiones: física intelectual, emocional y religiosa.</p>
+            </div>
+        </div>
+
+        <div class="cards__learn">
+            <div class="learn__img"></div>
+            <div class="learn__text">
+                <h1 class="learn__title">Aprender haciendo</h1>
+                <p class="learn__paragraph">Acompañamiento constante de nuestros maestros y un ambiente de aprendizaje lúdico</p>
+            </div>
+        </div>
+
+        <div class="cards__various">
+            <div class="various__img"></div>
+            <div class="various__text">
+                <h1 class="various__title">Diversos programas</h1>
+                <p class="various__paragraph">Contamos con diversidad de actividades que ayudan a los niños a enriquecer su mente y sus capacidades.</p>
+            </div>
+        </div>
+
+    </div>
+
 </div>
 
-<div class="card">
-    <div class="card__img"></div>
-    <div class="card__img"></div>
-    <div class="card__img"></div>
+<div class="background__two"></div>
+
+
+<div class="cards">
+    
+    <h2 class="cards__title">¿Por qué elegirnos?</h2>
+
+    <div class="cards__card">
+
+        <div class="phisiology__card card">
+            <div class="phisiology__img"></div>
+            <h3 class="phisiology__title">Nuestra filosofía</h3>
+        </div>
+            <div class="team__card card">
+                <div class="team__img"></div>
+                <h3 class="team__title">Nuestro equipo</h3>
+            </div>
+
+            <div class="place__card card">
+                <div class="place__img"></div>
+                <h3 class="place__title">Nuestro lugar</h3>
+            </div>
+
+    </div>
+</div>
+
+<div class="offer">
+
+    <h2 class="offer">Programas que ofrecemos</h2>
+
+    <div class="offer__cards">
+
+        <div class="offer__card">
+            <div class="physicalEducation">
+                <div class="physical__img"></div>
+                <h3 class="physical__title">Educación fisica</h3>
+            </div>
+
+            <div class="english">
+                <div class="english__img"></div>
+                <h3 class="english__title">Inglés para niños</h3>
+            </div>
+
+            <div class="theater">
+                <div class="theater__img"></div>
+                <h3 class="teather__title">Teatro</h3>
+            </div>
+
+            <div class="music">
+                <div class="music__img"></div>
+                <h3 class="music__title">Música</h3>
+            </div>
+
+            <div class="crafts">
+                <div class="crafts__img"></div>
+                <h3 class="crafts__title">Manualidades</h3>
+            </div>
+            
+            <div class="garden">
+                <div class="garden__img"></div>
+                <h3 class="garden__title">Jardinería</h3>
+            </div>
+        </div>
+    </div>
 </div>
     
 </body>
